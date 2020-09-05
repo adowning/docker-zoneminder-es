@@ -12,7 +12,7 @@ services:
         privileged: true
         shm_size: 512M
         environment:
-            - TZ=Europe/London
+            - TZ=America/Central
         volumes:
             - events:/var/cache/zoneminder/events
             - images:/var/cache/zoneminder/images
